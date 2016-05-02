@@ -1,0 +1,24 @@
+mission "Trapping"
+	assisting
+	boarding
+	repeat
+	to offer
+		has "event: war begins"
+	source
+		government Merchant
+		government Pirate
+		government Reborne
+	on offer
+		conversation
+			`When you open the doors  to <origin>, you hear explosions outside, and realize its a trap, the enemy ship had fighters in the cargo bay!`
+				decline defer
+	destination Earth
+	npc
+	fleet "Reborne Trap"
+	government "Reborne"
+	names ""
+	cargo 0
+	personality
+		heroic plunders staying
+	variant 1
+		"Freefire" 8
