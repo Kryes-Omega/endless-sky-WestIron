@@ -131,3 +131,43 @@ ship Freefire
 	explode "small explosion" 25
 	explode "big explosion" 45
 	description "Now how would this be in a shipyard? HMMM?"
+	
+ship "Alpha Guncruiser"
+	sprite "ship/alpha1"
+	attributes
+		category "Heavy Warship"
+		bunks 167
+		"cargo space" 100
+		cost 11000000
+		drag 10.7
+		"engine capacity" 210
+		"fuel capacity" 1000
+		"gun ports" 2
+		"heat dissipation" 0.5
+		hull 13000
+		mass 920
+		"outfit space" 1000
+		"required crew" 144
+		shields 26000
+		"turret mounts" 5
+		"weapon capacity" 500
+	outfits
+		"X4700 Ion Thruster"
+		Jumpdrive
+		"X4200 Ion Steering"
+		"LP144a Battery Pack"
+		"Armageddon Core"
+		"D14-RN Shield Generator"
+		"Liquid Helium Cooler"
+		"Plasma Turret" 3
+		"Electron Beam" 2
+		"Korath Warder" 2
+	engine 52.5 195.5
+	engine -52.5 195.5
+	turret 0 -189
+	turret 0 -103
+	turret 0 -59
+	turret 0 -16.5
+	turret 0 27.5
+	gun 86 60.5
+	gun -86 60.5
