@@ -140,25 +140,25 @@ ship "Alpha Guncruiser"
 		"cargo space" 100
 		cost 11000000
 		drag 10.7
-		"engine capacity" 210
+		"engine capacity" 180
 		"fuel capacity" 1000
 		"gun ports" 2
 		"heat dissipation" 0.5
 		hull 13000
 		mass 920
-		"outfit space" 1000
+		"outfit space" 580
 		"required crew" 144
 		shields 26000
 		"turret mounts" 5
-		"weapon capacity" 500
+		"weapon capacity" 300
 	outfits
 		"X4700 Ion Thruster"
 		Jumpdrive
 		"X4200 Ion Steering"
 		"LP144a Battery Pack"
-		"Armageddon Core"
+		"Fission Reactor"
 		"D14-RN Shield Generator"
-		"Liquid Helium Cooler"
+		"Liquid Nitrogen Cooler" 
 		"Plasma Turret" 3
 		"Electron Beam" 2
 		"Korath Warder" 2
@@ -171,3 +171,7 @@ ship "Alpha Guncruiser"
 	turret 0 27.5
 	gun 86 60.5
 	gun -86 60.5
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "big explosion" 40
