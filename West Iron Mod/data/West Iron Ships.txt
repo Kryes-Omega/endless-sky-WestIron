@@ -415,7 +415,7 @@ ship Oracle
 	explode "huge explosion" 20
 	description "The Oracle is the largest, most powerful Heavy Warship to be produced, originally meant for the Republic (Who West Iron has recently had a falling out with) during the war with the Freeworlds, the fiasco with the Nuclear weapons pushed back the completion until West Iron themselves needed it."
 	
-ship "Sword Carrier"
+ship "Scabbard"
 	sprite "ship/swordcarrier"
 	attributes
 		category "Medium Warship"
@@ -467,7 +467,7 @@ ship "Sword Carrier"
 	explode "medium explosion" 25
 	explode "big explosion" 10
 	
-ship "Sword Fighter"
+ship "Sai"
 	sprite "ship/swordinter"
 	attributes
 		category "Fighter"
@@ -501,7 +501,7 @@ ship "Sword Fighter"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	
-ship "Sword Drone"
+ship "Blade"
 	sprite "ship/sworddrone"
 	attributes
 		category "Drone"
