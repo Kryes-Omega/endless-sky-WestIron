@@ -25,9 +25,9 @@ shipyard "West Iron Advanced"
 	"Meta Fighter"
 	
 shipyard "Sword line"
-	"Sword Carrier"
-	"Sword Fighter"
-	"Sword Drone"
+	"Scabbard"
+	"Sai"
+	"Blade"
 	
 outfitter "Sword line"
 	"Hull Buster"
