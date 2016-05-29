@@ -599,9 +599,9 @@ mission "Send Help"
 			names ""
 			variant 1
 				"Oracle" 3
-				"Sword Carrier" 4
-				"Sword Drone" 8
-				"Sword Fighter" 8
+				"Scabbard" 4
+				"Blade" 8
+				"Sai" 8
 
 	npc evade
 		government "Reborne"
