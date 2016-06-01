@@ -11,14 +11,14 @@ mission "Trapping"
 	on offer
 		conversation
 			`When you open the doors  to <origin>, you hear explosions outside, and realize its a trap, the enemy ship had fighters in the cargo bay!`
-				decline defer
+				defer
 	destination Earth
-	npc
-	fleet "Reborne Trap"
-	government "Reborne"
-	names ""
-	cargo 0
-	personality
+	npc evade
+		government "Reborne"
+		personality
 		heroic plunders staying
-	variant 1
-		"Freefire" 8
+		system <system>
+		fleet
+			names ""
+			variant 1
+				"Freefire" 8
