@@ -115,7 +115,7 @@ system Regulus
 			period 20.065
 			
 system Forn
-	pos -595 -10
+	pos -596.128 52.0123
 	government "West Iron"
 	habitable 2001
 	link Regulus
