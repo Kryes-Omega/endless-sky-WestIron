@@ -1,10 +1,17 @@
 -0.6.0
+Moved Forn to fix an overlap with a Shields Up system.
+Removed the non-functional Trap boarding mission.
 Changed 'Sword' line names
 	Sword Carrier > Scabbard
 	Sword Fighter > Sai
 	Sword Drone > Blade
 
-
+Added outfits:
+	Mass Driver Cannon
+	Driver Round
+	Tractor Beam
+	Atomic & Ionic Particle Shielding
+	Charge
 
 
 -0.5.0
