@@ -76,3 +76,19 @@ outfitter "West Nuke"
 	
 shipyard "Lionheart Basics"
 	"Courier"
+
+outfitter "HullShock Basics"
+	"Hull Buster"
+	"Molten Pellet"
+	"Ionic Particle Shielding"
+	"Charge"
+	
+outfitter "HullShock Advanced"
+	"Mass Driver Cannon"
+	"Driver Round"
+	"Atomic Particle Shielding
+	"Hull Buster"
+	"Molten Pellet"
+	"Ionic Particle Shielding"
+	"Charge"
+	"Tractor Beam"
