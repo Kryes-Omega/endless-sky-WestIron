@@ -411,3 +411,108 @@ outfit "Jackal Rocket"
 	thumbnail "outfit/javelin"
 	"Jackal capacity" -1
 	description "Scary boom."
+	
+outfit "Mass Driver Cannon"
+	cost 600000
+	category "Guns"
+	thumbnail "outfits/massdriver"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"gun ports" -1
+	"DR capacity" 10
+	weapon
+		sprite "projectile/thunderhead"
+		sound "explosion huge"
+		"hit effect" "fire-lance impact"
+		icon "icon/javelin"
+		ammo "Driver Round"
+		"firing energy" 500
+		"reload" 200
+		"piercing" .5
+		"shield damage" 300
+		"hull damage" 2000
+		"blast radius" 30
+		"lifetime" 1000000000
+		"velocity" 200
+	description "HullShock Industries' second Big Hitter (Literally!). A throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed accelerates it's projectile with a series of magnets, creating no heat and no knockback, and quite a bit of force, and the residual magnetic field allows it to puncture any shield.
+		
+outfit "Driver Round"
+	category "Ammunition"
+	cost 1200
+	thumbnail "outfit/thunderhead"
+	"DR capacity" -1
+	
+outfit "Tractor Beam"
+	category "Turrets"
+	cost 2000000
+	thumbnail "outfits/e-antimissile"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	weapon
+		sprite "projectile/2x electron"
+		"hit effect" "proton impact" 3
+		"lifetime" 1
+		"velocity" 450
+		"reload" 1
+		"firing energy" 10
+		"slowing damage" .05
+		"hit force" -3
+	description "A high powered beam variation based off of stolen Korath technology, able to keep capital ships within reach and drag small fighters along for the ride, but it is unable to do any damage itself."
+
+outfit "Atomic Particle Shielding"
+	category "Turrets"
+	cost 600000
+	thumbnail "outfits/e-antimissile"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"Charge Capacity" 200
+	weapon
+		icon "icon/"
+		ammo Charge
+		"reload" 1
+		"firing energy" 80
+		submunition "ashield"
+	description "A large atomic powered Particle anti-missile shield developed by HullShock Industries to protect large freighters from missile attacks, but at the high energy cost prevents it from being viable in military operations."
+		
+outfit "ashield"
+	weapon
+		sprite "projectile/atomshield"
+		"lifetime" 1
+		"velocity" 0
+		"anti-missile" 50
+		"hull damage" 1
+		
+outfit "Ionic Particle Shielding"
+	category "Turrets"
+	cost 200000
+	thumbnail "outfits/e-antimissile"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"Charge Capacity" 100
+	weapon
+		icon "icon/"
+		ammo Charge
+		"reload" 1
+		"firing energy" 40
+		submunition "ishield"
+	description "A lower power Anti-projectile shield than the Atomic, that is smaller and better for new cargo ships."
+		
+outfit "ishield"
+	weapon
+		sprite "projectile/ionshield"
+		"lifetime" 1
+		"velocity" 0
+		"anti-missile" 50
+		"shield damage" .25
+
+outfit "Charge"
+	"cost" 1
+	"Charge Capacity" -1
+	category "Power"
