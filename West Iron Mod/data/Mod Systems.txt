@@ -387,3 +387,11 @@ planet Radon
 		threshold 3000
 		fleet "Large West Iron" 5
 	
+planet "New Argentina"
+	outfitter "HullShock Advanced"
+	
+planet "New Greenland"
+	outfitter "HullShock Basics"
+	
+planet "New Wales"
+	outfitter "HullShock Advanced"
