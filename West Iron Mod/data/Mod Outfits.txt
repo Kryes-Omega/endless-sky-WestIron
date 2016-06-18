@@ -465,7 +465,7 @@ outfit "Tractor Beam"
 outfit "Atomic Particle Shielding"
 	category "Turrets"
 	cost 600000
-	thumbnail "outfits/e-antimissile"
+	thumbnail "outfits/atomshield"
 	"mass" 45
 	"outfit space" -45
 	"weapon capacity" -45
@@ -490,7 +490,7 @@ outfit "ashield"
 outfit "Ionic Particle Shielding"
 	category "Turrets"
 	cost 200000
-	thumbnail "outfits/e-antimissile"
+	thumbnail "outfits/ionshield"
 	"mass" 30
 	"outfit space" -30
 	"weapon capacity" -30
