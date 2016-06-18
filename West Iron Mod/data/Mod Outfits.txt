@@ -448,7 +448,7 @@ outfit "Driver Round"
 outfit "Tractor Beam"
 	category "Turrets"
 	cost 2000000
-	thumbnail "outfits/e-antimissile"
+	thumbnail "outfits/tbeam"
 	"mass" 55
 	"outfit space" -55
 	"weapon capacity" -55
