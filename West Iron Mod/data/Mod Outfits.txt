@@ -363,7 +363,8 @@ outfit "Hull Buster"
 		"shield damage" 2
 		"hull damage" 40
 		"firing force" 10
-	description "With new technology available to make ship's hulls stronger than ever, West Iron decided to take a trip to the olden days of projectile weapons, capable of popping holes in exposed hull no problem, but will have no effect on shields."
+		"missile strength" 30
+	description "With new technology available to make ship's hulls stronger than ever, HullShock decided to take a trip to the olden days of projectile weapons, capable of popping holes in exposed hull no problem, but will have no effect on shields."
 		
 outfit "Molten Pellet"
 	category "Ammunition"
@@ -427,7 +428,7 @@ outfit "Mass Driver Cannon"
 		"hit effect" "fire-lance impact"
 		icon "icon/javelin"
 		ammo "Driver Round"
-		"firing energy" 500
+		"firing energy" 2000
 		"reload" 200
 		"piercing" .5
 		"shield damage" 300
@@ -435,6 +436,7 @@ outfit "Mass Driver Cannon"
 		"blast radius" 30
 		"lifetime" 1000000000
 		"velocity" 200
+		"missile strength" 50
 	description "HullShock Industries' second Big Hitter (Literally!). A throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed accelerates it's projectile with a series of magnets, creating no heat and no knockback, and quite a bit of force, and the residual magnetic field allows it to puncture any shield.
 		
 outfit "Driver Round"
@@ -478,7 +480,7 @@ outfit "Atomic Particle Shielding"
 		"firing energy" 80
 		submunition "ashield"
 	description "A large atomic powered Particle anti-missile shield developed by HullShock Industries to protect large freighters from missile attacks, but at the high energy cost prevents it from being viable in military operations."
-		
+	description "Particle shields require a large amount of energy to keep active, but are impenitrable from physical attacks such as missiles, or HullShock's own M.D.C, while energy attacks still go through."
 outfit "ashield"
 	weapon
 		sprite "projectile/atomshield"
@@ -503,7 +505,7 @@ outfit "Ionic Particle Shielding"
 		"firing energy" 40
 		submunition "ishield"
 	description "A lower power Anti-projectile shield than the Atomic, that is smaller and better for new cargo ships."
-		
+	description "Particle shields require a large amount of energy to keep active, but are impenitrable from physical attacks such as missiles, or HullShock's own M.D.C, while energy attacks still go through."
 outfit "ishield"
 	weapon
 		sprite "projectile/ionshield"
