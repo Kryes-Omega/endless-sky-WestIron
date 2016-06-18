@@ -415,7 +415,7 @@ outfit "Jackal Rocket"
 outfit "Mass Driver Cannon"
 	cost 600000
 	category "Guns"
-	thumbnail "outfits/massdriver"
+	thumbnail "outfits/mac"
 	"mass" 45
 	"outfit space" -45
 	"weapon capacity" -45
