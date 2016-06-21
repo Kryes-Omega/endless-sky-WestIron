@@ -472,7 +472,7 @@ outfit "Atomic Particle Shielding"
 	"outfit space" -45
 	"weapon capacity" -45
 	"turret mounts" -1
-	"Charge Capacity" 200
+	"Charge Capacity" 250
 	weapon
 		icon "icon/"
 		ammo Charge
@@ -497,7 +497,7 @@ outfit "Ionic Particle Shielding"
 	"outfit space" -30
 	"weapon capacity" -30
 	"turret mounts" -1
-	"Charge Capacity" 100
+	"Charge Capacity" 250
 	weapon
 		icon "icon/"
 		ammo Charge
