@@ -86,7 +86,7 @@ outfitter "HullShock Basics"
 outfitter "HullShock Advanced"
 	"Mass Driver Cannon"
 	"Driver Round"
-	"Atomic Particle Shielding
+	"Atomic Particle Shielding"
 	"Hull Buster"
 	"Molten Pellet"
 	"Ionic Particle Shielding"
