@@ -46,6 +46,7 @@ outfit "Cluster Rocket"
 	cost 2750
 	thumbnail "outfit/rocket"
 	"Cluster capacity" -1
+	"mass" .3
 	description "More boom."
 	
 outfit "Shieldbuster Turret"
@@ -113,6 +114,7 @@ outfit "Zephyr Light Missile"
 	cost 20
 	thumbnail "outfit/rocket"
 	"Zephyr capacity" -1
+	"mass" .2
 	description "Less boom."
 	
 outfit "Energy Burst"
@@ -165,6 +167,7 @@ outfit "Shell"
 	cost 2750
 	thumbnail "outfit/rocket"
 	"Shell capacity" -1
+	"mass" .4
 	description "Multi boom."
 		
 outfit "Burst"
@@ -371,7 +374,7 @@ outfit "Molten Pellet"
 	cost 10
 	"Pellet capacity" -1
 	thumbnail "outfits/pellet"
-	mass .1
+	mass .05
 	
 outfit "Jackal Ion Launcher"
 	category "Secondary Weapons"
@@ -411,6 +414,7 @@ outfit "Jackal Rocket"
 	cost 750
 	thumbnail "outfit/javelin"
 	"Jackal capacity" -1
+	"mass" .2
 	description "Scary boom."
 	
 outfit "Mass Driver Cannon"
@@ -444,6 +448,7 @@ outfit "Driver Round"
 	cost 1200
 	thumbnail "outfit/thunderhead"
 	"DR capacity" -1
+	"mass" .5
 	
 outfit "Tractor Beam"
 	category "Turrets"
