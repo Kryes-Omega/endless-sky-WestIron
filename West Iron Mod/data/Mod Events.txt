@@ -216,7 +216,7 @@ mission "Reborne Emerge"
 			label ignore
 			`You decide to return to your ship.`
 			`As you enter the hangar, a loud noise rocks the planet, like you heard when you reactivated the hyperspace links back in the Pug War.`
-			fail
+		fail
 		
 mission "Reborne Meeting 1"
 	source Triumph
