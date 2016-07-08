@@ -216,7 +216,7 @@ mission "Reborne Emerge"
 			label ignore
 			`You decide to return to your ship.`
 			`As you enter the hangar, a loud noise rocks the planet, like you heard when you reactivated the hyperspace links back in the Pug War.`
-		fail
+				decline
 		
 mission "Reborne Meeting 1"
 	source Triumph
@@ -719,7 +719,7 @@ mission "Push Them Back"
 				accept
 	on stopover
 		event "aliothFREE"
-		dialog `		The troops are deploying, and now its time to take Arcturus.`
+		dialog `The troops are deploying, and now its time to take Arcturus.`
 	on visit
 		dialog `You haven't murdered all the Reborne! Get back out there and scrap some metal!`
 	on complete
