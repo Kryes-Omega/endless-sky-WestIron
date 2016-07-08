@@ -32,7 +32,7 @@ ship "Patrolship"
 		"A375 Atomic Steering"
 		"Heavy Anti-Missile Turret" 2
 		"LP072a Battery Pack"
-		"Heavy Laser Turret" 2
+		"Heavy Laser" 2
 		"Liquid Nitrogen Cooler"
 		"Breeder Reactor"
 		"Laser Turret"
