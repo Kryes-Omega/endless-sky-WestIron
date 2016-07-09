@@ -175,28 +175,28 @@ ship "Heavy Carrier"
 		"LP288a Battery Pack"
 		"Blaster Turret"
 		
-	engine -35 200
-	engine 35 200
-	turret 0 75.5 "Blaster Turret"
-	turret 0 -34 "Heavy Anti-Missile Turret"
-	fighter -37 -65
-	fighter 37 -65
-	fighter -46 40
-	fighter 46 40
-	fighter -37 -66
-	fighter 37 -66
-	fighter -46 41
-	fighter 46 43
-	drone -72 -46
-	drone 72 -46
-	drone -101 57
-	drone 101 57
-	drone -101 59
-	drone 101 59
-	drone -74 57
-	drone 74 57
-	drone -75 57
-	drone 75 57
+	turret 0 41
+	turret 0 43
+	engine 107.5 184
+	engine -107.5 184
+	fighter 83.5 -55.5 over
+	fighter 83.5 44 over
+	fighter 83.5 -55.5
+	fighter 83.5 44
+	fighter -83.5 -55.5 over
+	fighter -83.5 44 over
+	fighter -83.5 -55.5
+	fighter -83.5 44
+	drone 83.5 -55.5 under
+	drone 83.5 44 under
+	drone 83.5 -55.5
+	drone 83.5 44
+	drone -83.5 -55.5 under
+	drone -83.5 44 under
+	drone -83.5 -55.5
+	drone -83.5 44
+	drone 24.5 42
+	drone -24.5 42
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
