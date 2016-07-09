@@ -2,6 +2,7 @@
 Moved Forn to fix an overlap with a Shields Up system.
 Removed the non-functional Trap boarding mission.
 Added Merchant fleets with the Mod ships
+New Oracle and Patrolship models
 Changed 'Sword' line names
 	Sword Carrier > Scabbard
 	Sword Fighter > Sai
