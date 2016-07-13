@@ -13,7 +13,7 @@ ship "Patrolship"
 		category "Medium Warship"
 		bunks 40
 		"cargo space" 30
-		cost 730000
+		cost 1800000
 		drag 5.2
 		"engine capacity" 100
 		"fuel capacity" 400
@@ -96,7 +96,7 @@ ship "Spider"
 		category "Heavy Warship"
 		bunks 100
 		"cargo space" 50
-		cost 11000000
+		cost 13500000
 		drag 10.1
 		"engine capacity" 150
 		"fuel capacity" 500
@@ -106,7 +106,7 @@ ship "Spider"
 		mass 680
 		"outfit space" 510
 		"required crew" 67
-		shields 17400
+		shields 16400
 		"turret mounts" 4
 		"weapon capacity" 200
 	outfits
