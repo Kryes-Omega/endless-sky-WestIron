@@ -817,3 +817,34 @@ mission "Plug the Hole"
 			variant 1
 				"Oracle" 4
 				"Spider" 6
+
+#0.6.0 Mission set
+
+event MeVaNEU
+	system Menkent
+		government Republic
+	system Vega
+		government Republic
+		
+mission "The Dive"
+	landing
+	source "New Boston"
+	waypoint "Menkent"
+	destination "Silver"
+	to offer
+		has "Plug the Hole: done"
+	on offer
+		conversation
+			`You step off of your ship to a crowd of celebrating spaceport workers, all cheering for you and your fleet.`
+			`	"Don't let it go to your head, Captain. We still have many more battles ahead." Gregor says, as he weaves through of the crowd. "There isn't much place to talk strategy out there, so lets convene on your ship, while the crews are celebrating still having their lives after that last battle." Gregor goes to your communications first and calls the other Generals who went to the Syndicate. "Hogan, Valstog! Good to see you two alive still. How did your visit to the Syndicate go?"`
+			`	"It took longer than expected, but the Syndicate are willing to help. They are gathering their forces in Delta Capricorni and Formalhaut, we are preparing to strike Altair and Deneb whenever you are ready." Hogan says.`
+			`	"Begin your assault, we will meet your forces in Vega." Gregor responds, Captain <last>, we will be making a push through Menkent into Vega, we won't be landing in Menkent though, we don't want to give the enemy in Vega any time to prepare. I already contacted the West Iron fleet in Regulus, they will be working with the Republic to clean up the north. Once we are all in position, we will be doing a combined assault on Sol, hopefully ending the Reborne and Alpha threat for good."`
+			choice
+				`"Seems straightforward enough. Lets do this."`
+					goto "do it"
+				`"What about any Alphas and Reborne on New Austria?"`
+					goto "NewA"
+			
+			
+	on enter "Menkent"
+		event "MeVaNEU"
