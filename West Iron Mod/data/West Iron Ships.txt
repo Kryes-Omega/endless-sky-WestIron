@@ -357,8 +357,9 @@ ship "Meta Fighter"
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
 		
-	engine 0 25.5
-	turret 0 5.5
+	turret 0 14
+	engine 18.5 22
+	engine -18.5 22
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Meta looks like it could have been designed by the syndicate, considering its horrid design. The Meta is suitable for small firefights, equipped with a single turret, a Shieldbuster default."
