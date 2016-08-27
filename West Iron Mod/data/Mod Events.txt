@@ -65,6 +65,8 @@ event "Radon dead"
 		attributes uninhabited
 		outfitter clear
 		shipyard clear
+	outfitter "Deep Sky Advanced"
+		"Dual Electron Beam"
 
 mission "West Nuke"
 	invisible
