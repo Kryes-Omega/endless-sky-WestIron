@@ -294,7 +294,7 @@ outfit "Static Pulse"
 		"hull damage" 0
 		"blast radius" 100000
 		"ion damage" 10000
-	description "The Static Blaster causes no hull damage, but packs a huge Ion punch, and is able to disable an entire system with one shot, so it is generally used with a fleet to back you up.
+	description "The Static Pulse causes no hull damage, but packs a huge Ion punch, and is able to disable an entire system with one shot, so it is generally used with a fleet to back you up.
 	
 outfit "Radiation Flare"
 	category "Guns"
@@ -368,6 +368,7 @@ outfit "Hull Buster"
 		"firing force" 10
 		"missile strength" 30
 	description "With new technology available to make ship's hulls stronger than ever, HullShock decided to take a trip to the olden days of projectile weapons, capable of popping holes in exposed hull no problem, but will have no effect on shields."
+	description "As far as projectile weapons go, this one is very inaccurate. Although it was a hit with Bounty Hunters looking to kill pirates, Nobody else really had a need for it, or a ship that could handle CQC with any ship that requires being hit with this weapon." 
 		
 outfit "Molten Pellet"
 	category "Ammunition"
@@ -434,14 +435,14 @@ outfit "Mass Driver Cannon"
 		ammo "Driver Round"
 		"firing energy" 2000
 		"reload" 200
-		"piercing" .5
+		"piercing" .3
 		"shield damage" 300
 		"hull damage" 2000
 		"blast radius" 30
 		"lifetime" 1000000000
 		"velocity" 200
 		"missile strength" 50
-	description "HullShock Industries' second Big Hitter (Literally!). A throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed accelerates it's projectile with a series of magnets, creating no heat and no knockback, and quite a bit of force, and the residual magnetic field allows it to puncture any shield.
+	description "HullShock Industries' second Big Hitter (Literally!). A throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed, accelerates it's projectile with a series of magnets, creating no heat and no knockback, and quite a bit of force, and the residual magnetic field allows it to puncture any shield, but not before the projectile slows down quite a bit."
 		
 outfit "Driver Round"
 	category "Ammunition"
@@ -490,8 +491,7 @@ outfit "Dual Heavy Laser"
 		"firing heat" 5
 		"shield damage" 3.6
 		"hull damage" 4.8
-	description "The Heavy Laser is an upgraded Beam Laser with a significantly longer range and higher power. It is mostly intended for larger ships, where energy and space are plentiful, but some pilots consider a single Heavy Laser to be a worthwhile alternative to a pair of Beam Lasers, because the longer range makes up for the fact that it does not quite deal twice as much damage."
-	description "The Dual Heavy Laser is a direct upgrade, its literally just two Heavy Lasers fused together. The problem is that because of the cramped gun port, it generates more than just double the heat."
+	description "The Heavy Laser was a real hit with pilots everywhere. It was cheap, powerful, and long-range. The Dual Heavy Laser is a direct upgrade, its literally just two Heavy Lasers fused together. The problem is that because of the cramped gun port, it generates more than just double the heat."
 	
 outfit "Dual Electron Beam"
 	category "Guns"
@@ -514,8 +514,7 @@ outfit "Dual Electron Beam"
 		"firing heat" 6
 		"shield damage" 5.8
 		"hull damage" 7.8
-	description "The Electron Beam is a recent development by the Deep Sky labs, a more powerful weapon with a design similar to their perennially popular laser guns."
-	description "The Dual Electron Beam is a direct upgrade, its literally just two Electron Beams fused together. The problem is that because of the cramped gun port, it generates more than just double the heat."
+	description "Until the Freeworlds civil war, the heavy laser was the best weapon for any job. Unfortunately, when the Republic Navy started to crumble under the force of the Freeworlds, Deep Sky labs unleashed their ultimate creation, the ELectron Beam. Since then, Things have calmed down more, but Deep Sky saw no reason they couldn't rease a dual version of their best weapon."
 	
 outfit "Dual Beam Laser"
 	category "Guns"
@@ -538,5 +537,4 @@ outfit "Dual Beam Laser"
 		"firing heat" 3
 		"shield damage" 2
 		"hull damage" 2.6
-	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere. A Beam Laser has a slightly shorter range than an Energy Blaster, but is also much more energy-efficient and does a comparable amount of damage."
-	description "The Dual Beam Laser is a direct upgrade, its literally just two Beam Laser fused together. The problem is that because of the cramped gun port, it generates more than just double the heat."
+	description "The Beam Laser is an incredible weapon for starter pilots, extremely cheap, and gets the job of defense done okay for anyone with a small ship. Most pilots still took on the Heavy laser over two beam lasers, simply because of the range increase, despite the fact that the damage was not quite doubled. To remedy that, The galaxy was presented with the Dual Beam lasers, a stepping stone between Heavy Lasers and Beam Lasers."
