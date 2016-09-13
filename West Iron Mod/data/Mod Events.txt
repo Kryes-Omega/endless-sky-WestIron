@@ -160,7 +160,7 @@ event "Reborne meeting time"
 event "alphas on earth"
 	planet "Earth"
 		description `The ancestral home world of humanity, Earth has a population ten times that of any other inhabited planet. Sprawling cities cover large portions of its surface, many of them overcrowded and dangerous. `
-		description `	Earth was also the capital of the Republic. Until the Reborne and Alphas stormed the capital city, and took the entire planet hostage.`
+		description `	Earth was also the capital of the Republic. That is, until the Reborne and Alphas stormed the capital city, and took the entire planet hostage.`
 		spaceport `Earth's spaceport used to be a bustling place, now half of it is nearly rubble, as it was the staging point for the Alpha's battle for the capital.`
 	outfitter clear
 	"required reputation" 2
@@ -201,7 +201,7 @@ mission "Reborne Emerge"
 	on offer
 		event "Reborne unlock"
 		conversation
-			`You see a person in a radiation suit sitting at a broken bar in the spaceport.`
+			`You see a person in a radiation suit, sitting at a broken bar in the spaceport.`
 			choice
 				`(Talk to him)`
 					goto "talk"
@@ -257,8 +257,8 @@ mission "Reborne Meeting 1"
 				goto jail
 			label jail
 			`		One of the guards shoots you, and everything goes dark.`
-			`		"Wake up outsider, I need to talk to you." You hear an unfamiliar voice say, "Its the President's appointed teacher." So. They sent someone to talk to me, after SHOOTING ME.`
-			`		The man starts talking, and doesn't stop. Talking to you about how the Reborne originated here, founded an empire. working in secret with the Alphas during the war. Finally he says "We need you to go to the first government, West Iron, on Vinchi, and talk to them first, about meeting with us in person. That is all. Now begone."`
+			`		"Wake up outsider, I need to talk to you." You hear an unfamiliar voice say, "I'm the President's appointed teacher." So. They sent someone to talk to me, after SHOOTING ME.`
+			`		The man starts talking, and doesn't stop. Talking to you about how the Reborne originated here, founded an empire. working in secret with the Alphas during the Alpha War. Finally he says "We need you to go to the first government, West Iron, on Vinchi, and talk to them first, about meeting with us in person. That is all. Now begone."`
 			`		The doors to the cell open, and you realize you are in a small chamber in the hangar bay.`
 			choice
 				`"Haha, no. See you later, you crazy people!"
@@ -286,13 +286,16 @@ mission "Reborne Meeting 2"
 	passengers 1
 	on offer
 		conversation
-			`The ambassador is waiting impatiently in the spaceport, clearly disappointed in her mode of transportation. Once on, the ambassador's annoyed look turns to a look of depression.`
+			`The ambassador is waiting impatiently in the spaceport, clearly disappointed in her mode of transportation. Once on, the ambassador's annoyed look turns to a look of depression, probably because of the rather military-esque interior. "What were you expecting, a Star Queen?" You say.`
 				accept
 	on complete
 		set "meeting2done"
 		conversation
 			`		When you land, the ambassador rushes off the ship and runs off to the capital building, followed by two local guards.`
 			`		You arrive at the designated building much later than the ambassador, only to learn that the talk is already over. You are to meet both the West Iron and Reborne ambassadors in the spaceport.`
+			`	"That was rather fast, what gives?" You ask.`
+			`	"Well, apparently the Reborne are just as eager to regain their standing with the Republic as West Iron is, I'm sure you understand, Mister Freeworlds councilman." She replies.`
+			
 			
 mission "Negotiations?"
 	landing
@@ -317,12 +320,12 @@ mission "Negotiations?"
 				`"No, this seems a little to shady, you can get there safe enough without me."`
 					decline
 			label ready
-			`		"Hold up a second." you hear a voice say, "Over here Captain <first>!" You realize its the West Iron ambassador, who you still don't know the name of. "This seems a little shady to me, how about you?" She asks`
+			`		"Hold up a second." you hear a voice say, "Over here Captain <first>!" You realize its the West Iron ambassador, who you still don't know the name of. "This seems a little shady to me, how about you?" She asks.`
 			choice
 				`"Not really, they seemed pretty sincere when I talked to them."`
 					goto go
 				`"A bit, but it doesn't matter, I'll be enough security for West Iron."`
-					goto go
+					goto suspicion
 				`"Yeah, what about it?"`
 					goto suspicion
 			label suspicion
@@ -522,7 +525,7 @@ mission "Send Help"
 		has "Save the Ambassador: done"
 	on offer
 		conversation
-			`The whole planet is on high alert. It is understandable considering the system neighbours the Reborne home planet. Anti-Missile turrets are active 24/7 on the roof, half the hangars are closed, and the city has troops crawling every street, roof, and building.`
+			`The whole planet is on high alert. It is understandable, considering the system neighbours the Reborne home planet. Anti-Missile turrets are active 24/7 on the roof, half the hangars are closed, and the city has troops crawling every street, roof, and building.`
 			`		"Excuse me captain!" You hear someone scream.`
 			`		"Captain <first> <last>! I'm your escort." You finally find the source of the voice in the crowded hangar. Its a tall and scrawny man, with an incredibly large ranking pin. "My name is Lieutenant General Gregor Fondral. I am accompanying you to Bourne, to speak with the Freeworlds Senate."
 			choice
@@ -537,16 +540,16 @@ mission "Send Help"
 			`		"Don't worry about the Syndicate, LtGen. Hogan and Valstog are meeting with them."`
 			`		"Now, I understand that your ship may be outfitted with Jump Drives? I just wanted to point out, West Iron doesn't have access to that technology, so we will be taking a less direct route than you can. You can of course go on without us, but you will definitely be waiting a few weeks for us to arrive." He says.`
 			`		"The West Iron escort fleet will consist of three Oracle and four of our new Sword Carrier ships. We have no idea how much territory the Reborne and Alphas are taking, but considering Earth, I'd day we should bring as much fire power as possible."`
-			`		"I will be travelling with you, to provide tactical support for your crew. They look a tad inexperienced..."`
+			`		"Your crew looks a tad inexperienced... I guess I will be travelling with you, to provide tactical support for you and your crew. "`
 			`		"We'll be passing through Menkent and Wei to patrol for Reborne on our way. If you see any, blow them to dust." He says.`
 			choice
-				`"I'm sorry, but I won't be accompanying you. This is a war I have to fight myself."`
+				`"I'm sorry, but I won't be accompanying you. This is a war I have to fight myself." (Warning: This will permanently set Earth to Reborne Control!)`
 					goto "my war"
 					set "my war"
 				`"Alright, lets get going. The sooner we get to Bourne, the sooner we can stop this."`
 					accept
 			label "my war"
-			`		"I see. Well, I guess it is mostly out fault for trusting them in the first place. I was hoping to work with the legendary Captain <name>, but oh well. Good luck in your fight."`
+			`		"I see. Well, I guess it is mostly out fault for trusting them in the first place. I was hoping to work with the legendary Captain <last>, but oh well. Good luck in your fight."`
 				decline
 	on enter Menkent
 		event "DMP"
@@ -587,7 +590,7 @@ mission "Send Help"
 			`		"Alphas? On Earth? You're kidding." says JJ. "We only knew about the attack, nothing about Alphas."`
 			`		Gregor steps in, apparently tired of all the chatter.`
 			`		"ATTENTION FREEWORLDS SENATE!" He yells, stunning the room.`
-			`		"I am Lieutenant General Gregor Fondral of the West Iron security fleet. Recently, as you know, Earth was invaded, what you do not know, was that it was invaded by the Alphas, and a centuries old terrorist civilization known as the Reborne. The Reborne helped the Alphas during the Alpha War, and are helping the Alphas now. Unfortunately, our path back was blocked by the Reborne's invasion fleets. The galaxy is falling into genetically altered chaos again, and it is our duty to fix this. Right now, Two other Generals from the West Iron security fleet are giving the exact same speech to the syndicate, and although you may not trust them, we must, if we are to be victorious."`
+			`		"I am Lieutenant General Gregor Fondral of the West Iron security fleet. Recently, as you know, Earth was invaded, what you do not know, was that it was invaded by the Alphas, and a centuries old terrorist civilization known as the Reborne. The Reborne helped the Alphas during the Alpha War, and are helping the Alphas now. Unfortunately, our path back was blocked by the Reborne's invasion fleets. The galaxy is falling into genetically altered chaos again, and it is our duty to fix this. Right now, Two other Generals from the West Iron security fleet are giving the exact same speech to the Syndicate, and although you may not trust them, we must, if we are to be victorious."`
 			`		"I will be in the spaceport if you wish to help, rather than cower in your territory. You have 12 hours until I contact the other Generals to say that the Freeworlds have refused to help their fellow man. That is all."`
 			`		And with that, Gregor walked out of the building, and back to the spaceport.`
 			`		"And I thought I was great a convincing. Damn, that guy is good." Said Alondo, who had been sitting in silence the whole time.`
@@ -595,7 +598,7 @@ mission "Send Help"
 			`		And with that, the debate was over. To war it was.`
 	npc
 		government "West Iron"
-		personality timid escort
+		personality heroic escort
 		system Forn
 		fleet
 			names ""
