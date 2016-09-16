@@ -442,7 +442,7 @@ outfit "Mass Driver Cannon"
 		"lifetime" 1000000000
 		"velocity" 200
 		"missile strength" 50
-	description "HullShock Industries' second Big Hitter (Literally!). A throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed, accelerates it's projectile with a series of magnets, creating no heat and no knockback, and quite a bit of force, and the residual magnetic field allows it to puncture any shield, but not before the projectile slows down quite a bit."
+	description "HullShock Industries' second big hitter, a throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed, accelerates it's projectile with a series of magnets. The firing mechanism creates no heat and no knockback, and quite a bit of force. The residual magnetic field around the projectile allows it to puncture any shield, but not before the projectile slows down quite a bit."
 		
 outfit "Driver Round"
 	category "Ammunition"
