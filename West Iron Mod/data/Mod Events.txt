@@ -95,7 +95,7 @@ mission "Officina"
 			`		You see a man in a very fancy suit getting carted off by Republic soldiers.`
 			`		"Oh my God, its Jared Mylow!" You hear someone say softly.`
 			`		"Who's Jared Mylow?" You hear another say.`
-			`		"Hes the Vice President of West Iron corporation! You know, public enemy number one, now that the Freeworlds got their way."`
+			`		"Hes the Vice President of West Iron corporation! You know, public enemy number one, now that the Free Worlds got their way."`
 		
 mission "West Iron Fall 1"
 	invisible
@@ -294,7 +294,7 @@ mission "Reborne Meeting 2"
 			`		When you land, the ambassador rushes off the ship and runs off to the capital building, followed by two local guards.`
 			`		You arrive at the designated building much later than the ambassador, only to learn that the talk is already over. You are to meet both the West Iron and Reborne ambassadors in the spaceport.`
 			`	"That was rather fast, what gives?" You ask.`
-			`	"Well, apparently the Reborne are just as eager to regain their standing with the Republic as West Iron is, I'm sure you understand, Mister Freeworlds councilman." She replies.`
+			`	"Well, apparently the Reborne are just as eager to regain their standing with the Republic as West Iron is, I'm sure you understand, Mister Free Worlds councilman." She replies.`
 			
 			
 mission "Negotiations?"
@@ -361,7 +361,7 @@ mission "Negotiations?"
 			`		"Yes I can see why you would be mad." he says.`
 				goto who
 			label who
-			`		"I am Officer Windsley, International Security." says the officer. "Let me start by saying, seeing Reborne ships alongside a Freeworlds ship, a quite well known one too, was quite a scare."`
+			`		"I am Officer Windsley, International Security." says the officer. "Let me start by saying, seeing Reborne ships alongside a Free Worlds ship, a quite well known one too, was quite a scare."`
 			`		"You see, the Reborne are known terrorists, who worked as spys for the Alphas during the war, in exchange for their freedom. If you don't mind me ask-`
 			`		There is a crash, and gunfire and to your horror, you see the all too familiar green skin of Alphas leaping off the Reborne Capitals.`
 			choice
@@ -412,11 +412,11 @@ mission "Save the Ambassador"
 			`	`
 			`		When you arrive at the boards building, the security is even tighter than before. You are allowed to pass with only a 'You're late'.`
 			`	`
-			`		"We heard about Earth on the news. I don't think this is going to help anybody's case, The Freeworlds, West Iron, yours." Says one of the Board members sadly.`
+			`		"We heard about Earth on the news. I don't think this is going to help anybody's case, The Free Worlds, West Iron, yours." Says one of the Board members sadly.`
 			`		"What are we going to do?" You ask.`
 			`		"Well, its clear that the Reborne somehow reopened two of the three once closed Hyperspace routes. If or when they open the third, is unclear, as there were only two outsiders to step on their planet, you and the late ambassador." Says one.`
 			`		"They took over Sol, its only a matter of time until they expand their territory to surrounding systems." Says another board member.`
-			`		"I think the only thing we can do right now is ask for the Republic and Freeworlds' help. West Iron is in no position to fight the Reborne in this sector alone." says the first board member.`
+			`		"I think the only thing we can do right now is ask for the Republic and Free Worlds' help. West Iron is in no position to fight the Reborne in this sector alone." says the first board member.`
 			`		"Head to the spaceport Captain, we will send someone to assist you and brief you, should you choose to accept. The man outside will give you your payment for all the trouble the Reborne and us have caused you."`
 			`		You are escorted outside, and just as they said, there is a man there in a suit, who hands you a <payment> credit chip. "The boys and I threw in an extra 2 million for all the trouble at the spaceport, we know you've already been through a war." He says.`
 			
@@ -499,7 +499,6 @@ event "argon lib"
 		government "West Iron"
 		outfitter "West Iron Launchers"
 		shipyard "West Iron Advanced"
-	dialog "banana"
 
 event "chiron alpha"
 	system "Alpha Centauri"
@@ -517,7 +516,7 @@ mission "chiron alpha"
 mission "Send Help"
 	source Vinchi
 	destination Bourne
-	description "Make your way to Bourne to meet with the Freeworlds Senate, stopping in Menkent and Wei to make sure your fleet is with you."
+	description "Make your way to Bourne to meet with the Free Worlds Senate, stopping in Menkent and Wei to make sure your fleet is with you."
 	waypoint Menkent
 	waypoint Wei
 	passengers 1
@@ -527,14 +526,14 @@ mission "Send Help"
 		conversation
 			`The whole planet is on high alert. It is understandable, considering the system neighbours the Reborne home planet. Anti-Missile turrets are active 24/7 on the roof, half the hangars are closed, and the city has troops crawling every street, roof, and building.`
 			`		"Excuse me captain!" You hear someone scream.`
-			`		"Captain <first> <last>! I'm your escort." You finally find the source of the voice in the crowded hangar. Its a tall and scrawny man, with an incredibly large ranking pin. "My name is Lieutenant General Gregor Fondral. I am accompanying you to Bourne, to speak with the Freeworlds Senate."
+			`		"Captain <first> <last>! I'm your escort." You finally find the source of the voice in the crowded hangar. Its a tall and scrawny man, with an incredibly large ranking pin. "My name is Lieutenant General Gregor Fondral. I am accompanying you to Bourne, to speak with the Free Worlds Senate."
 			choice
-				`"Why the Freeworlds, in the South?"`
+				`"Why the Free Worlds, in the South?"`
 					goto why
 				`"What about the Syndicate?"`
 					goto syn
 			label why
-			`		"Well, the Freeworlds for one, had the most recent contact with the Alphas, besides the Navy, not to mention they have right to know anyway."`
+			`		"Well, the Free Worlds for one, had the most recent contact with the Alphas, besides the Navy, not to mention they have right to know anyway."`
 				goto syn
 			label syn
 			`		"Don't worry about the Syndicate, LtGen. Hogan and Valstog are meeting with them."`
@@ -566,7 +565,7 @@ mission "Send Help"
 			`		"Halt! This is a closed debate. Please return to your homes"`
 			`Guess you were wrong.`
 			choice
-				`"I am part of the Freeworlds war council, The General here and I need to speak to the Senate."`
+				`"I am part of the Free Worlds war council, The General here and I need to speak to the Senate."`
 					goto command
 				`"We need to speak to the Senate. Let me in. Now."`
 					goto demand
@@ -589,9 +588,9 @@ mission "Send Help"
 			`		"So this means you know what happened on Earth." you say, "About the Alphas and Reborne.."`
 			`		"Alphas? On Earth? You're kidding." says JJ. "We only knew about the attack, nothing about Alphas."`
 			`		Gregor steps in, apparently tired of all the chatter.`
-			`		"ATTENTION FREEWORLDS SENATE!" He yells, stunning the room.`
+			`		"ATTENTION FREE WORLDS SENATE!" He yells, stunning the room.`
 			`		"I am Lieutenant General Gregor Fondral of the West Iron security fleet. Recently, as you know, Earth was invaded, what you do not know, was that it was invaded by the Alphas, and a centuries old terrorist civilization known as the Reborne. The Reborne helped the Alphas during the Alpha War, and are helping the Alphas now. Unfortunately, our path back was blocked by the Reborne's invasion fleets. The galaxy is falling into genetically altered chaos again, and it is our duty to fix this. Right now, Two other Generals from the West Iron security fleet are giving the exact same speech to the Syndicate, and although you may not trust them, we must, if we are to be victorious."`
-			`		"I will be in the spaceport if you wish to help, rather than cower in your territory. You have 12 hours until I contact the other Generals to say that the Freeworlds have refused to help their fellow man. That is all."`
+			`		"I will be in the spaceport if you wish to help, rather than cower in your territory. You have 12 hours until I contact the other Generals to say that the Free Worlds have refused to help their fellow man. That is all."`
 			`		And with that, Gregor walked out of the building, and back to the spaceport.`
 			`		"And I thought I was great a convincing. Damn, that guy is good." Said Alondo, who had been sitting in silence the whole time.`
 			`		"Well, I think theres only one way out of this mess, and its with that guy." Said Tomek.`
@@ -659,7 +658,7 @@ mission "Retaking Argon"
 			`		"Stop, we don't have time for this, whats the plan Fondral?" Tomek butts in.`
 				goto plan
 			label plan
-			`		"Ok, so West Iron used to have a factory station, inside the edges of Freeworlds space, the Alphecca system." Gregor says, "Its only a jump from Alioth, a Reborne conquered system. We'll have to move fast, but no doubt your forces are already engaged, Tomek."`
+			`		"Ok, so West Iron used to have a factory station, inside the edges of Free Worlds space, the Alphecca system." Gregor says, "Its only a jump from Alioth, a Reborne conquered system. We'll have to move fast, but no doubt your forces are already engaged, Tomek."`
 			`		"I'll gather a fleet. If anything is left of the West Iron fleet, its probably not safe to go into battle with." says Tomek.`
 				accept
 	on complete
@@ -719,7 +718,7 @@ mission "Push Them Back"
 			`		"Very impressive, I remember a few years ago it took weeks to produce a single Dreadnought, and here you are, building the largest warships in the galaxy in mere days." you say, in awe.`
 			`		"Unfortunately, its not fast enough. But we need to strike now before the rebuild," he says "Now, the plan. Today's plan involves a lot of luck, that the Reborne haven't rebuilt their strike force since our assault on this system. We'll be taking on Arcturus and Alioth first, then plugging the hole with Rutilicus. Reinforcements will be coming in soon."`
 			`		"Will I be doing this alone?" you ask.`
-			`		"Don't worry, there will be Freeworlds and Republic fleets there when you arrive, with the bonus of any locals who could escape beforehand." he replies.`
+			`		"Don't worry, there will be Free Worlds and Republic fleets there when you arrive, with the bonus of any locals who could escape beforehand." he replies.`
 			`		"Oh, one more thing, you will have to bribe the spaceport chief, so here is <payment> to cover those expenses."`
 				accept
 	on stopover
@@ -784,7 +783,7 @@ mission "Plug the Hole"
 		event "bostonNEU"
 		conversation
 			`		A message from Gregor comes in on your ships communicator.`
-			`		"Well done Captain, you're really living up to the legends. Don't celebrate just yet, we still have a big fight ahead of us. Rutilicus will be well defended by now, and the Freeworlds will have to stay behind to defend Holeb and Arcturus."`
+			`		"Well done Captain, you're really living up to the legends. Don't celebrate just yet, we still have a big fight ahead of us. Rutilicus will be well defended by now, and the Free Worlds will have to stay behind to defend Holeb and Arcturus."`
 			choice
 				`"Will I have to do this by myself?"`
 					goto support
